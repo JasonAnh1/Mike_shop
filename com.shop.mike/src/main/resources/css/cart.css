@@ -1,0 +1,152 @@
+
+
+
+a{
+    color: black;
+}
+.menu-cha > li{
+    position: relative;
+}
+.menu-con{
+    position: absolute;
+    display: none;
+}
+.menu-cha > li:hover .menu-con{
+    display: block;
+    min-width: 200px;
+}
+
+section > p{
+    margin: 40px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.container-product{
+    max-width: 1300px;
+    margin: auto;
+    position: relative;
+    border-bottom: 1px solid rgb(206, 200, 200);
+    padding: 30px 0;
+}
+.container-product .delete{
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+.container-product .sub-total{
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    text-align: right;
+    border: none;
+    outline: none;
+}
+.content{
+    margin-left: 15px;
+}
+.quantity{
+    margin-top: 10px;
+}
+.quantity input{
+    width: 40px;
+    background-color: rgb(226, 225, 225);
+    border: 1px solid rgb(206, 200, 200);
+    text-align: center;
+    outline: none;
+}
+.quantity button{
+    outline: none;
+    width: 30px;
+    border: 1px solid rgb(206, 200, 200);
+    background-color: white;
+    color: rgb(189, 184, 184);
+}
+.total{
+    text-align: right;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 30px;
+}
+.total > span{
+    font-size: 40px;
+    font-weight: 600;
+}
+.cart-control{
+    text-align: right;
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 30px;
+}
+.cart-control a{
+    padding: 10px 30px;
+    background-color: rgb(193, 193, 194);
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    word-spacing: 2px;
+    /* transition: 1s; */
+    border: 1px solid rgb(193, 193, 194);
+}
+.cart-control a:hover{
+    background-color: white;
+    color: rgb(43, 41, 41);
+}
+
+/*
+    thanh toan
+*/
+main{
+    width: 900px !important;
+}
+main > div{
+    padding-top: 50px;
+}
+
+.checkout{
+    border-right: 1px rgb(190, 186, 186) solid;
+}
+
+.checkout > form > div{
+    margin-bottom: 10px;
+}
+
+.checkout div:first-child{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.checkout div:nth-child(2){
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.checkout div:last-child a{
+    text-decoration: none;
+}
+
+.checkout div:last-child button{
+    padding: 10px;
+}
+
+.checkout-list-product{
+	margin-top: 14px;
+	margin-bottom: 30px;
+}
+
+.checkout-product {
+	height: 70px;;
+	margin-bottom: 20px;
+	position: relative; 
+}
+
+.checkout-product .checkout-quantity{
+	position: absolute;
+	top: -12px;
+    left: 73px;
+    padding: 0 7px;
+    background-color: #999;
+    border-radius: 50%;
+    color: white;
+}

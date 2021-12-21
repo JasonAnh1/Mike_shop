@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/webapp/WEB-INF/views/administrator/categories/addCategories.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/administrator/product/productManage.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/customer/cart.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/customer/detailProduct.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/customer/index.jsp=UTF-8
+encoding/<project>=UTF-8

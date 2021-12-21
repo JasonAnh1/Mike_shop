@@ -1,0 +1,33 @@
+.shoe_size button{
+background-color: #1A1A1D;
+border: 1px solid white;
+border-radius: 5px;
+width: 130px;
+height: 50px;
+margin-left: 7px !important;
+margin-top: 7px;
+}
+
+.shoe_size button:hover {
+
+border: none;
+background-color: #1A1A1D;
+}
+.produc_detail_img div img{
+	padding: 0;
+	margin-bottom: 13px;
+}
+.produc_detail_img div
+{
+	padding: 5px;
+}
+.buy_btn
+{   
+	margin-top:20px;
+	width: 90%;
+	border-radius: 15px;
+	background-color: #4FA468;
+	height: 60px;
+    color: white;
+    font-size: 20px;
+}
